@@ -21,7 +21,7 @@ const FormScreen = () => {
     router.push('/src/screens/program');
 
     Alert.alert(
-      'Bilgileriniz',
+      'Bilgiler',
       `Yaş: ${age}, Boy: ${height}, Kilo: ${weight}, Spor Yeri: ${location === 'gym' ? 'Spor Salonu' : 'Ev'
       }, Haftada: ${daysPerWeek} Gün`
     );
